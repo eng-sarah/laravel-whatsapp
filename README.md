@@ -33,8 +33,8 @@ You can send a messages to a single or multiple clients.
 
 ```php
 use MissaelAnda\Whatsapp\Messages;
-
-Whatsapp::send('13333333333', Messages\TemplateMessage::create()
+//set phone number id from whatsapp cloud api app and WHATSAPP_TOCKEN before sending 
+Whatsapp::client(Phone_number_ID,env('WHATSAPP_TOCKEN'))->send('13333333333', Messages\TemplateMessage::create()
     ->name('one_time_password')
     ->language('en_US')
     ->body(Messages\Components\Body::create([
