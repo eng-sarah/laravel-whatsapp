@@ -21,7 +21,7 @@ class Whatsapp
 {
     public const WHATSAPP_API_URL = 'https://graph.facebook.com/v{{VERSION}}';
     public const WHATSAPP_MESSAGE_API = 'messages';
-    public const WHATSAPP_API_VERSION = '17.0';
+    public const WHATSAPP_API_VERSION = '21.0';
 
     public function __construct(
         protected readonly ?string $numberId,
