@@ -35,7 +35,9 @@
                 "MissaelAnda\\Whatsapp\\WhatsappServiceProvider"
             ],
             "aliases": {
-                "Whatsapp": "MissaelAnda\\Whatsapp\\Facade\\Whatsapp"
+                "Whatsapp": "MissaelAnda\\Whatsapp\\Facade\\Whatsapp",
+                 "Templates": "MissaelAnda\\Whatsapp\\Facade\\Templates"
+
             }
         }
     }
